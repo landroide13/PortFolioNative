@@ -1,4 +1,3 @@
-
 import { StyleSheet, Text, View } from 'react-native';
 import Tabs from './components/Tabs';
 
@@ -6,9 +5,3 @@ import Tabs from './components/Tabs';
 export default function App() {
   return <Tabs />
 }
-
-const styles = StyleSheet.create({
-  container: {
-    
-  },
-});

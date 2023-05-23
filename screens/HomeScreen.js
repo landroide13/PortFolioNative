@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 
 const HomeScreen = () => {
@@ -9,5 +9,11 @@ const HomeScreen = () => {
     </View>
   )
 }
+
+const styles = StyleSheet.create({
+  container: {
+    
+  },
+})  
 
 export default HomeScreen
