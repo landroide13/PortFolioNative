@@ -5,7 +5,7 @@ const Profile = () => {
   return (
     <View style={ styles.container }>
       <View style={ styles.textContainer }>
-        <Text style={ styles.text }>Following six years of in the chemical industry, working from entry to Analyst level, I was motivated to pursue a new challenge in a field I am passionate about – software development. In 2016 I began two years of re-training, in Ireland and Vietnam, with a focus on 'React' and ‘Ruby on Rails’. Having completed this training, I am now seeking an opportunity that can utilize my developer skillset and broad experience base.</Text>
+        <Text style={ styles.text }>Following six years of in the chemical industry, working from entry to Analyst level, I was motivated to pursue a new challenge in a field I am passionate about – software development. In 2016 I began two years of re-training, in Ireland and Vietnam, with a focus on 'React' and 'Ruby on Rails'. Having completed this training, I am now seeking an opportunity that can utilize my developer skillset and broad experience base.</Text>
       </View>
 
       <View style={ styles.cardContainer }>
