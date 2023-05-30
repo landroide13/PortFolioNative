@@ -3,7 +3,9 @@ import { View, Text, StyleSheet } from 'react-native';
 
 const ContactScreen = () => {
   return (
+
     <View style={ styles.container }>
+      
       <Text style={ styles.subTitle }>Get in Touch</Text>
 
       <View>
@@ -34,7 +36,15 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     padding: 18,
-    backgroundColor: '#f2f2f2' 
+    backgroundColor: '#eef2f3' 
+  },
+
+  background:{
+    width: '100%',
+    height: '100%',
+    opacity: 0.95,
+    justifyContent: 'center',
+    alignItems: 'center'
   },
 
   cardContainer:{

@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     padding: 18,
-    backgroundColor: '#f2f2f2' 
+    backgroundColor: '#eef2f3' 
   },
 
   cardContainer:{
@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
     width: 280,
     height: 100,
     margin: 4,
-
+    
     shadowColor: '#4d4dff',
     shadowOffset: {width: -2, height: 4},
     shadowOpacity: 0.2,
