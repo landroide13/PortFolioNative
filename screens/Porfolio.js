@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleSheet, Image } from 'react-native';
+import { View, Text, StyleSheet, Image, Linking } from 'react-native';
 
 const Porfolio = () => {
   return (
@@ -11,15 +11,14 @@ const Porfolio = () => {
 
       <View style={ styles.cardContainer }>
 
-        <View style={ styles.card }>
-          <Text style={ styles.text }>React App</Text>
+        <View style={ styles.card } >
+          <Text style={ styles.text } onPress={() => Linking.openURL('https://landroide13.github.io/Do-It-App/')}>React App</Text>
          
-            <Image source={require('../assets/react.png')} style={ styles.image } />
-          
+            <Image source={require('../assets/react.png')} style={ styles.image }  />
         </View>
 
         <View style={ styles.card }>
-          <Text style={ styles.text }>Materialize App</Text>
+          <Text style={ styles.text } onPress={() => Linking.openURL('https://landroide13.github.io/TravelAgency/')}>Materialize App</Text>
             <Image source={require('../assets/frontMat.png')} style={ styles.image } />
         </View>
 

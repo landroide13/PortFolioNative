@@ -1,18 +1,23 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, Linking } from 'react-native';
 
 const ContactScreen = () => {
+
+
+
+
   return (
 
     <View style={ styles.container }>
       
-      <Text style={ styles.subTitle }>Get in Touch</Text>
+      <Text style={ styles.subTitle }>Get In Touch</Text>
 
       <View>
 
         <View style={ styles.card }>
           <Text>Email</Text>
-          <Text style={ styles.text }>landrade1313@gmail.com</Text>
+          <Text style={ styles.text } 
+            onPress={() => Linking.openURL('mailto:landrade1313@gmail.com').catch(err => console.error('An error occurred', err))}>landrade1313@gmail.com</Text>
         </View>
 
         <View style={ styles.card }>
